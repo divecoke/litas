@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand navbar-light bg-transparent col-12 position-absolute p-3 mt-5">
+  <div class="container">
+    <div class="navbar-collapse collapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item mr-2">
+          <a routerLink="/home" routerLinkActive="active" class="nav-link btn-nav"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/about" routerLinkActive="active" class="nav-link btn-nav"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container d-flex align-items-center vh-100">
+  <div class="col-md-12">
+    <div class="block d-flex align-items-center justify-content-center " style="height: 70vh;">
+
+      <router-outlet></router-outlet>
+
+    </div>
+  </div>
+</div>
+
+<canvas class="background"></canvas>
